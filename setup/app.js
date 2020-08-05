@@ -16,21 +16,34 @@ const buttonEvents = ()=>{
   document.getElementById('reset').addEventListener('click', resetNum)
   }
 
-const colorChanger = ()=> 
+const colorChanger = ()=> {
+    
+        if (score < 0) {
+            document.getElementById('score').style.color = 'red';
+        }
+        else if(score === 0){
+            document.getElementById('score').style.color = 'black'
+        }
+        else if(score > 0){
+            document.getElementById('score').style.color = 'green'
+        }
+}
 
 const increaseFunc = () =>{
-    if (score >= 0) {
+    
         document.getElementById("score").innerHTML = score++;
-        document.getElementById('score').innerHTML.style.color = 'green'
+       colorChanger()
       }
      
-    }
+    
 const decreaseFunc = () =>{
     document.getElementById("score").innerHTML = score--;
+    colorChanger()
 }
 const resetNum = () =>{
     score = 0
     document.getElementById("score").innerHTML = score;
+    colorChanger()
 }
 
 
