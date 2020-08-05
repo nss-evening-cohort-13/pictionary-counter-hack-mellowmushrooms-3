@@ -3,10 +3,10 @@
 This will be a counter for our persona to use as a simple application to keep track of his pictionary score during game night.
 
 ## Motivation
-Our motivation is to work as a team  and create issue tickets, a project board and a wireframe using figma to properly plan outn our work
+Our motivation is to work as a team  and create issue tickets, a project board and a wireframe using figma to properly plan out our work
 
 ## Build Status
-In Prgress
+In Progress
 
 ## Code Style
 HTML5 CSS3 and Javascript es6
