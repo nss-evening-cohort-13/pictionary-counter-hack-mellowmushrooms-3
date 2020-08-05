@@ -17,6 +17,13 @@ https://www.figma.com/proto/svRpjmUdeQQP9BJPEGXXHp/Untitled?node-id=1%3A2&scalin
 ## Features
 The user will be able to keep track of the score of the teams and increse, decrease, and reset the scores
 
+## Contributers
+ithub.com/willkotheimer
+https://github.com/BaileyEDennis
+https://github.com/Jonathon22
+https://github.com/ryanmcnair
+https://github.com/chrislojacono
+
 
 
 
